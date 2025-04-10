@@ -10,23 +10,23 @@ This is a TypeScript project set up with **Bun**, **ESLint**, **Prettier**, **Je
 ## Getting Started
 
 ### 1. Install Dependencies
-bun install
+`bun install`
 
 ### 2. Install Husky
-npx husky install
+`npx husky install`
 
 ### 3. Manually Run Linting & Formatting
-bun run lint
-bun run format
+```bun run lint```
+```bun run format```
 
 ### 4. Run tests with Jest
-bun jest
+`bun jest`
 
 ## Configuration Files
-.eslintrc.js: ESLint configuration for linting TypeScript files with Prettier integration.
+`eslint.config.js`: ESLint configuration for linting TypeScript files with Prettier integration.
 
-.prettierrc: Configuration file for Prettier formatting options.
+`.prettierrc`: Configuration file for Prettier formatting options.
 
-.lintstagedrc: Configuration for lint-staged to run ESLint and Prettier on staged files.
+`tsconfig.json`: Configuration for Typescript.
 
-jest.config.js: Jest configuration for running tests in the project.
+`jest.config.js`: Jest configuration for running tests in the project.
