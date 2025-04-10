@@ -30,3 +30,5 @@ This is a TypeScript project set up with **Bun**, **ESLint**, **Prettier**, **Je
 `tsconfig.json`: Configuration for Typescript.
 
 `jest.config.js`: Jest configuration for running tests in the project.
+
+`.husky/pre-commit`: Husky configuration for linting before commits.
